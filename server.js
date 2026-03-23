@@ -5,6 +5,8 @@
 */
 
 import express from "express";                                          // Import Express from modules in package-lock.json
+import tshirtsRouter from './routes/tshirt.route.js'
+
 
 const app = express();                                                  // Instance Express app
 const PORT = 3000;                                                      // Define listening port
