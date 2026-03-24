@@ -1,11 +1,12 @@
-import { tshirtCollection } from "../data/tshirt.data";
+// Import t-shirt collection.
+import { tshirtCollection } from "../data/tshirt.data.js";
 
-// Find and return T-Shirt in collection with matching ID.
-function getById(enteredId) {
+// Find and return t-shirt in collection with matching ID.
+export function getById(enteredId) {
     return tshirtCollection.find(tshirt => tshirt.id == enteredId);
 }
 
-// Return collection.
-function getAll() {
+// Return full collection.
+export function getAll() {
     return tshirtCollection;
 }

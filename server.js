@@ -23,4 +23,4 @@ console.log(`Servidor corriendo en http://localhost:${PORT}`);
 
 
 // Define routes
-app.use('/t-shirts', tshirtsRouter);
+app.use('/tshirts', tshirtsRouter);
